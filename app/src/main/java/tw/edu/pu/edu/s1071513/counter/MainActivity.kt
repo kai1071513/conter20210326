@@ -14,7 +14,6 @@ class MainActivity : AppCompatActivity() {
         txv.text = counter.toString()
     }
     fun Add(v:View){
-
         if(v == btn){
             counter++
         }
